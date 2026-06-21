@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Restaurant</title>
+<style>
+    :root {
+  --accent:  #7C3AED;
+  --accent2: #F43F5E;
+  --bg:      #0F0F13;
+  --bg2:     #18181F;
+  --border:  #2E2D3A;
+  --text:    #F1F0F5;
+  --muted:   #9491A7;
+  --radius:  12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  max-width: 900px;
+  margin: auto;
+  padding: 4rem 2rem;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+li {
+  background: rgba(124,58,237,0.15);
+  border: 1px solid var(--accent);
+  color: #c4b5fd;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+}
+
+a {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  transition: transform 0.2s;
+}
+
+a:hover {
+  transform: translateY(-2px);
+}
+
+.project-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+</style>
+</head>
+</head>
+<body>
+
+<h1>Projet Restaurant</h1>
+
+<p>
+Site permettant de consulter des restaurants,
+leurs caractéristiques et les avis des utilisateurs.
+</p>
+
+<h2>Technologies utilisées</h2>
+
+<ul>
+<li>PHP</li>
+<li>JavaScript</li>
+<li>MySQL</li>
+</ul>
+
+<a href="index.html">Retour au portfolio</a>
+
+</body>
+</html>
